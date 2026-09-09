@@ -24,21 +24,21 @@ Steps:
     - win64
 
 - action: override_dll
-  dll: atl80
+  dll: atl90
   type: native,builtin
 
 - action: override_dll
-  dll: msvcm80
+  dll: msvcm90
   type: native,builtin
 
 - action: override_dll
-  dll: msvcp80
+  dll: msvcp90
   type: native,builtin
 
 - action: override_dll
-  dll: msvcr80
+  dll: msvcr90
   type: native,builtin
-  
+
 - action: override_dll
-  dll: vcomp
+  dll: vcomp90
   type: native,builtin
