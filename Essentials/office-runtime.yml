@@ -50,6 +50,17 @@ Steps:
   file_name: cmd.exe
   dest: win32
 
+- action: download_archive
+  file_name: officedeploymenttool_14729-20228.exe
+  url: https://web.archive.org/web/20220224215107if_/https://download.microsoft.com/download/2/7/A/27AF1BE6-DD20-4CB4-B154-EBAB8A7D4A7E/officedeploymenttool_14729-20228.exe
+  file_checksum: c13197f14fa0d938d6369841ad324dba
+  file_size: 4564480
+
+- action: get_from_cab
+  source: officedeploymenttool_14729-20228.exe
+  file_name: setup.exe
+  dest: windows/temp/office-deployment-tool
+
 - action: override_dll
   bundle:
   - value: "*cmd.exe"
