@@ -359,6 +359,9 @@ allfonts:
 cjkfonts:
   Description: All Chinese/Japanese/Korean fonts
   Category: Fonts
+selawik:
+  Description: Selawik, an open replacement for Segoe UI
+  Category: Fonts
 arial32:
   Description: Microsoft Arial Font
   Category: Fonts
