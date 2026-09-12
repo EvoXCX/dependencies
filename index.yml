@@ -158,6 +158,10 @@ msxml6:
   Description: Microsoft Core XML Services (MSXML) 6.0
   Category: Essentials
   Arch: win64
+office-runtime:
+  Description: Microsoft Office Click-to-Run compatibility libraries
+  Category: Essentials
+  Arch: win64
 mediafoundation:
   Description: Microsoft Media Foundation
   Category: Essentials
