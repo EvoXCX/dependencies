@@ -14,7 +14,7 @@ Steps:
   
 - action: override_dll
   dll: msxml3
-  type: native
+  type: native,builtin
   
 - action: install_msi
   file_name: msxml3.msi
